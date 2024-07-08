@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { onBeforeMount, onErrorCaptured } from 'vue'
 import { useTelegram } from '@/application/services'
+import { RouterView } from 'vue-router';
 
 const { colorScheme } = useTelegram()
 

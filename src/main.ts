@@ -7,7 +7,7 @@ import { useTelegram } from '@/application/services'
 import { getCSSVariable } from './infra/utils/dom'
 import { darkenColor } from './infra/utils/color'
 
-/**
+/**`
  * @todo async lottie-player loading
  * @todo preload all icons
  * @todo describe thumbnail generation and work
